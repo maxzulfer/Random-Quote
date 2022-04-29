@@ -10,3 +10,8 @@ quoteButton.onclick = () => {
     let randomNumber = Math.floor(Math.random() * 4)
     quote.innerHTML = randomQuotes[randomNumber]
 }
+
+// Date
+let date = document.getElementById('date')
+date.innerHTML = new Date().getMonth() + 1 + "/" + new Date().getDate()
+console.log(date.innerHTML)
