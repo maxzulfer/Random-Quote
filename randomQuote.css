@@ -2,4 +2,13 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    /* border: .5px solid red; */
+}
+
+.container-main {
+    width: 50%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
 }
